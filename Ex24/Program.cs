@@ -12,4 +12,4 @@ return result;
 Console.Write("Enter your number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write(Sum(num1));
+Console.Write($"Сумма равна {Sum(num1)}");
