@@ -1,8 +1,15 @@
-﻿Console.Write("Enter your number: ");
-int num = Convert.ToInt32(Console.ReadLine());
+﻿int Sum(int num)
+{
 int result=0;
 for (int i = 1; i <= num; i++)
 {
     result=result+i;
 }
-Console.Write(result);
+return result;
+}
+
+
+Console.Write("Enter your number: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+
+Console.Write(Sum(num1));
